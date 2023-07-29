@@ -527,6 +527,6 @@ At this point in time and space, our little journey has come to an end. In the n
 Cheers,
 Giga
 
-[^1]:	I know it’s not exactly the same, but I’d like to show that up and running Datomic in development mode is a simple as it possibly get.
+[^1]:	Well, it’s not exactly the same, but I’d like to show that up and running Datomic in development mode is as simple as it possibly get.
 
 [^2]:	Surely in a real-world scenario, where clause would be looked up by id, for the illustrative purposes, let’s use email.
