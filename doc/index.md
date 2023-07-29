@@ -14,7 +14,7 @@ While there's much to discuss, I prefer to demonstrate through examples. The con
 To kick off our exploration, let’s define a simple _E_ntity _R_elationship _M_odel:
 ![](ERD.png)
 
-The path ahead of us is straightforward; it's a diagram illustrating ERD in an SQL database. Our SQL choice is the well-known Postgres. Within the Clojure ecosystem, we have a number of libraries that deal with SQL, such as HugSQL, HoneySQL, and plain SQL migration scripts. When dealing with database migration, my personal preference is the combination of plain `SQL` and `migratus`, a pair endorsed by our dear friend, exceptional individual, and veteran of Clojure open-source software - Sean Corfield, the author of our beloved HoneySQL.
+The path ahead of us is straightforward; it's a diagram illustrating ERD in an SQL database. Our SQL choice is the well-known Postgres. Within the Clojure ecosystem, we have a number of libraries that deal with SQL, such as HugSQL, HoneySQL, and plain SQL migration scripts. When dealing with database migration, my personal preference is the combination of plain `SQL` and `migratus`, a pair endorsed by our dear friend, exceptional individual, and veteran of Clojure open-source software - [Sean Corfield](https://github.com/seancorfield "Sean Corfield"), the author of our beloved HoneySQL and many other libraries.
 
 ## Schema 
 ### SQL
@@ -522,7 +522,10 @@ Result:
 ![](Datomic.gif)
 
 — 
-At this in time and space, our little journey has come to an end. In the next article we’ll talk about Datomic Specific features, that would improve the processes we have talked about.
+At this point in time and space, our little journey has come to an end. In the next article we’ll talk about Datomic Specific features, that would improve the processes we have talked about.
+
+Cheers,
+Giga
 
 [^1]:	I know it’s not exactly the same, but I’d like to show that up and running Datomic in development mode is a simple as it possibly get.
 
